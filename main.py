@@ -11,3 +11,13 @@ def glav_ekr():
 @app.route('/mymaterials')
 def mymaterials():
     return render_template('my materials.html', title='Мои материалы')
+
+
+@app.route('/pririode_taiasha_v_sebe')
+def pririode_taiasha_v_sebe():
+    return render_template('pririode_taiasha_v_sebe.html', title='Природа, таящая в себе')
+
+
+@app.route('/pririode_taiasha_v_sebe_glava_1')
+def pririode_taiasha_v_sebe_glava_1():
+    return render_template('pririode_taiasha_v_sebe_glava_1.html', title='Глава 1')
