@@ -26,3 +26,8 @@ def pririode_taiasha_v_sebe_glava_1():
 @app.route('/pririode_taiasha_v_sebe_glava_1_spisok_romid')
 def pririode_taiasha_v_sebe_glava_1_spisok_romid():
     return render_template('pririode_taiasha_v_sebe_glava_1_spisok_romid.html', title='Глава 1')
+
+
+@app.route('/pririode_taiasha_v_sebe_glava_1_romid_1')
+def pririode_taiasha_v_sebe_glava_1_romid_1():
+    return render_template('pririode_taiasha_v_sebe_glava_1_romid_1.html', title='Глава 1')
