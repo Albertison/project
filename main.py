@@ -13,6 +13,11 @@ def mymaterials():
     return render_template('my materials.html', title='Мои материалы')
 
 
+@app.route('/dnevnic')
+def dnevnic():
+    return render_template('my dnevnic.html', title='Дневник')
+
+
 @app.route('/pririode_taiasha_v_sebe')
 def pririode_taiasha_v_sebe():
     return render_template('pririode_taiasha_v_sebe.html', title='Природа, таящая в себе')
